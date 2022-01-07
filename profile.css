@@ -1,0 +1,82 @@
+body {
+    background: rgb(0, 0, 0);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  nav {
+      border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  
+  ol {
+      padding-left: 0;
+  }
+  
+  .crumb {
+      margin-right: 2em;
+      display: inline;
+  }
+  
+  a {
+      color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+      color: rgb(255, 255, 255);
+  }
+  
+  
+  input {
+      display: block;
+  }
+  
+  img {
+      max-width: 300px;
+  }
+  #div{
+    
+  }
+
+  footer{
+      display: flex;
+      align-items: flex-end;
+      margin-top: auto;
+  }
+
+  button{
+      width: 100px;
+    
+  }
+
+#green-button{
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+
+#favorite-place{
+   background-image: url('space.png');
+   color: white;
+   border-color: white;
+}
+
+#favorite-ritual{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+
+#reset{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
