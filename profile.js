@@ -7,7 +7,9 @@ let reset = document.querySelector('#reset')
 
 function favoriteColor(evt){
     evt.preventDefault()
-background.style.backgroundColor = "green"
+    background.style.backgroundImage = 'none'
+    background.style.backgroundColor = "green"
+    alert('favorite color is green')
 
 }
 
@@ -16,6 +18,7 @@ background.style.backgroundColor = "green"
  function favoritePlaceBack(evt){
      evt.preventDefault()
     background.style.backgroundImage = "url(space.png)"
+    alert('my favorite place is space')
  }
 
  favoritePlace.addEventListener('click', favoritePlaceBack)
@@ -23,14 +26,16 @@ background.style.backgroundColor = "green"
  function favoriteEventBack(evt){
      evt.preventDefault()
      background.style.backgroundImage = 'url(theater.jpg)'
+     alert('my favorite thing to do is going to the movie theaters')
  }
 
 favoriteEvent.addEventListener('click',favoriteEventBack)
 
 
 function resetBackground(evt){
-    
+    background.style.backgroundImage = 'none'
     background.style.backgroundColor = 'black'
+    alert('changing back to reset')
     
 }
 
